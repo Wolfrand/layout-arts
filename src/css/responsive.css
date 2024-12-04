@@ -1,0 +1,7 @@
+@media(max-width: 1400px) {
+    .artes {
+        max-width: 900px;
+        margin: 45px 0;
+        gap: 10px;
+    }
+}

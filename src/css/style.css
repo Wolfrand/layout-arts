@@ -1,0 +1,42 @@
+body {
+    font-family: "Public Sans", sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pintura {
+    width: 335px;
+    height: 430px;
+    position: relative;
+}
+
+.descricao-da-pintura {
+    max-width: 195px;
+    height: 60px;
+    position: absolute;
+    bottom: 40px;
+    margin-left: 25px;
+    color: #fff;
+}
+
+.descricao-da-pintura h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.descricao-da-pintura p {
+    font-size: 17px;
+    font-weight: 300;
+}
